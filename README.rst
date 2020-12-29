@@ -24,17 +24,11 @@ Change to the root directory and run::
 
     $ pip install --upgrade --no-index -v .
 
-For convenience this package contains a [makefile](makefile) with this
-and other often used commands. Should you wish too, you can use the
-shorthand::
-
-    $ make install
-
-# For JupyterLab
+To install for JupyterLab::
 
     $ jupyter lab build
 
-# For Notebook
+To install for Jupyter Notebook::
 
     $ jupyter nbextension enable --py --sys-prefix jupyter_francy
 
@@ -42,7 +36,7 @@ shorthand::
 Usage
 -----
 
-Once the package is installed, you can use it in Jupyter Notebook.
+Once the package is installed, you can use it in Jupyter Notebook. ::
 
     from francy_widget import FrancyWidget
     import networkx
@@ -55,10 +49,9 @@ See the `demo notebook <demo_FrancyWidget.ipynb>`_.
 Sage Usage
 ----------
 
-This package is usable also within the Sagemath environment:
+This package is usable also within the SageMath environment:
 
 See the `Sage example notebook <examples/S4.ipynb>`_.
-
 
 Tests
 -----
